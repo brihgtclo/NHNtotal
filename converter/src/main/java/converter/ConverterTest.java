@@ -4,15 +4,24 @@ import static converter.Converter.*;
 
 public class ConverterTest {
     public static void main(String[] args) {
-        NumBinary numBinary = new NumBinary("0101001");
-        NumOctor numOctor = new NumOctor("144");
-        NumHexadecimal numHexadecimal = new NumHexadecimal("64");
-        System.out.println(ToDecimal(numBinary));
-        System.out.println(ToDecimal(numOctor));
-        System.out.println(ToDecimal(numHexadecimal));
+        NumBinary numBinary = new NumBinary("100111111");
+        NumOctor numOctor = new NumOctor("477");
+        NumHexadecimal numHexadecimal = new NumHexadecimal("13F");
+        System.out.println(toDecimal(numBinary));
+        System.out.println(toDecimal(numOctor));
+        System.out.println(toDecimal(numHexadecimal));
+        System.out.println(convertToBase(319,2));
+        System.out.println(convertToBase(319,8));
+        System.out.println(convertToBase(319,16));
+
+        System.out.println(toOctal(numBinary));
+        System.out.println(toOctal(numHexadecimal));
+        System.out.println(toHex(numBinary));
+        System.out.println(toHex(numOctor));
+        System.out.println(toBinary(numHexadecimal));
+        System.out.println(toBinary(numOctor));
 
 
-//        System.out.println(reduceToDecomal("64",16));
     }
 
 }
