@@ -1,7 +1,7 @@
 package converter;
 
-class NumType{
-    private String number = null;
+public class NumType {
+    private final String number;
 
     public NumType(String number) {
         this.number = number;
@@ -13,5 +13,8 @@ class NumType{
 
     public int getLength(){
         return this.number.length();
+    }
+    public int getInit(){
+        return 0;
     }
 }

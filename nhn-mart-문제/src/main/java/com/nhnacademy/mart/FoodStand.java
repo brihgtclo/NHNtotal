@@ -19,7 +19,7 @@ public class FoodStand {
             if(food.getName().equals(name))
                 return true;
         }
-        throw new IllegalArgumentException(name+"이 식품 매대에 없는 상품입니다");
+        throw new FoodNotFoundException(name);
     }
 
     public void delete(String name) {
@@ -32,7 +32,7 @@ public class FoodStand {
                 return index;
             index++;
         }
-        throw new IllegalArgumentException(name+" 찾을 수 없습니다");
+        throw new FoodNotFoundException(name);
     }
 
     public Food getFoods(String name) {
@@ -40,7 +40,7 @@ public class FoodStand {
             if(food.getName().equals(name))
                 return food;
         }
-        throw new IllegalArgumentException(name+"재고가 부족합니다");
+        throw new IllegalArgumentException(name + "재고가 부족합니다");
     }
 
 

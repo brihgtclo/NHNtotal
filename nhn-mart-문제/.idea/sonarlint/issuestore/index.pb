@@ -15,3 +15,14 @@ _
 .src/main/java/com/nhnacademy/mart/NhnMart.java,f/a/fa5639c4c0a7db2f2f9482bb0eedac7e3bf1ed5a
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+b
+2src/test/java/com/nhnacademy/mart/NhnMartTest.java,9/8/98fbe9fd8b6b8875f96080fdb45468b2cb8a7573
+d
+4src/test/java/com/nhnacademy/mart/FoodStandTest.java,5/a/5ac2ca1e03c4b09e3fb1afe8ef41cfd0cfa9ca29
+_
+/src/main/java/com/nhnacademy/mart/MyLogger.java,0/3/0317029c09777ee63b9d92d61ded414ce54010d0
+c
+3src/main/java/com/nhnacademy/mart/NhnMartShell.java,e/1/e18dfd24854668fbdcbd8c593414fd72ed1b1f12

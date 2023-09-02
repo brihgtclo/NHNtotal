@@ -7,7 +7,7 @@ public class Customer {
 
     // 고객 장바구니
     private Basket basket;
-    
+
     private int money = 20_000;
 
     public Customer(BuyList buyList) {
@@ -20,18 +20,16 @@ public class Customer {
     }
 
     public void pickFoods(FoodStand foodStand) {
-        for(BuyList.Item item : buyList.getItems()){
-            if(foodStand.isExist(item.getName()))
+        for (BuyList.Item item : buyList.getItems()) {
+            if (foodStand.isExist(item.getName()))
                 pick(foodStand, item);
         }
     }
 
     private void pick(FoodStand foodStand, BuyList.Item item) {
-
-            for (int i = 0; i < item.getAmount(); i++) {
-                basket.add(foodStand.getFoods(item.getName()));
-                foodStand.delete(item.getName());
-
+        for (int i = 0; i < item.getAmount(); i++) {
+            basket.add(foodStand.getFoods(item.getName()));
+            foodStand.delete(item.getName());
         }
     }
 
@@ -45,7 +43,6 @@ public class Customer {
     }
 
     // TODO payTox 메서드 구현
-
 
 
 }

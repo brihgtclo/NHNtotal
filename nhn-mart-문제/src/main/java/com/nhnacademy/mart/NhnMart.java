@@ -5,6 +5,7 @@ public class NhnMart {
     private final FoodStand foodStand = new FoodStand();
 
     public void prepareMart() {
+        MyLogger.getLogger().warning("매대를 채웠습니다");
         fillFoodStand();
     }
 

@@ -10,6 +10,9 @@ public class ConverterTest {
         System.out.println(toDecimal(numBinary));
         System.out.println(toDecimal(numOctor));
         System.out.println(toDecimal(numHexadecimal));
+        System.out.println(reduceToDecimal(numBinary));
+        System.out.println(reduceToDecimal(numHexadecimal));
+        System.out.println(reduceToDecimal(numOctor));
         System.out.println(convertToBase(319,2));
         System.out.println(convertToBase(319,8));
         System.out.println(convertToBase(319,16));

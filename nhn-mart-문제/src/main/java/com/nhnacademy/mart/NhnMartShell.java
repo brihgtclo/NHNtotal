@@ -34,11 +34,12 @@ public class NhnMartShell {
         Scanner scanner = new Scanner(in);
         System.out.print("> ");
         String wantList = scanner.nextLine();
-
+        MyLogger.getLogger().warning("입력값 : " + wantList);
         BuyList buyList = new BuyList();
 
-        buyList.add(wantList);
+        buyList.add(wantList.split(" "));
 
         return buyList;
     }
 }
+

@@ -16,6 +16,21 @@ public class Converter {
         }
         return result;
     }
+    public static int reduceToDecimal(NumType number){
+        int result = 0;
+        char[] arr = new char[number.getLength()];
+
+        for (int i = 0; i < number.getLength(); i++) {
+            arr[i] = number.getNumber().charAt(i);
+        }
+        for (int i = 0; i < number.getLength(); i++) {
+            if (arr[number.getLength() - i - 1] != '0') {
+                int temp = (charToNum((Integer.valueOf(arr[number.getLength() - 1 - i]))));
+                result += Math.pow(number.getInit(), i) * temp;
+            }
+        }
+        return result;
+    }
 
     private static int charToNum(int number) {
         if (idNumber(number))
@@ -62,15 +77,15 @@ public class Converter {
 
 
     public static int toDecimal(NumBinary number) {
-        return reduceToDecimal(number.getNumber(), 2);
+        return reduceToDecimal(number);
     }
 
     public static int toDecimal(NumOctor number) {
-        return reduceToDecimal(number.getNumber(), 8);
+        return reduceToDecimal(number);
     }
 
     public static int toDecimal(NumHexadecimal number) {
-        return reduceToDecimal(number.getNumber(), 16);
+        return reduceToDecimal(number);
     }
 
     public static String toOctal(NumBinary number) {
