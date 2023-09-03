@@ -42,7 +42,5 @@ public class Customer {
         return money;
     }
 
-    // TODO payTox 메서드 구현
-
 
 }

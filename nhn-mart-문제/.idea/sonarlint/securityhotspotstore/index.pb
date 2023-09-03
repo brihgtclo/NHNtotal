@@ -8,8 +8,6 @@
 .src/main/java/com/nhnacademy/mart/BuyList.java,6/6/669faf1700f347d95c724c101ccd83cc86ce683d
 ]
 -src/main/java/com/nhnacademy/mart/Basket.java,1/9/19fd7ee0608d49db20f7de11433a48e71534953d
-b
-2src/test/java/com/nhnacademy/mart/NhnMartTest.java,9/8/98fbe9fd8b6b8875f96080fdb45468b2cb8a7573
 d
 4src/test/java/com/nhnacademy/mart/FoodStandTest.java,5/a/5ac2ca1e03c4b09e3fb1afe8ef41cfd0cfa9ca29
 ^
@@ -26,3 +24,11 @@ c
 3src/main/java/com/nhnacademy/mart/NhnMartShell.java,e/1/e18dfd24854668fbdcbd8c593414fd72ed1b1f12
 ^
 .src/main/java/com/nhnacademy/mart/NhnMart.java,f/a/fa5639c4c0a7db2f2f9482bb0eedac7e3bf1ed5a
+l
+<src/main/java/com/nhnacademy/mart/FoodNotFoundException.java,d/a/da2f7ea942c3790d2b38b44cfc27fa8ae5a0b744
+b
+2src/test/java/com/nhnacademy/mart/CounterTest.java,7/0/70fee2c0043e8ddaa59a1b20ad2947dc2911edba
+b
+2src/test/java/com/nhnacademy/mart/BuyListTest.java,f/7/f756cbddd7be719b405f8bd01c590bc1d1c10460
+c
+3src/test/java/com/nhnacademy/mart/CustomerTest.java,8/d/8dd7058fe318a650476c155e4b7d1ee2e5164f44

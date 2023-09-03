@@ -18,11 +18,17 @@ _
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-b
-2src/test/java/com/nhnacademy/mart/NhnMartTest.java,9/8/98fbe9fd8b6b8875f96080fdb45468b2cb8a7573
 d
 4src/test/java/com/nhnacademy/mart/FoodStandTest.java,5/a/5ac2ca1e03c4b09e3fb1afe8ef41cfd0cfa9ca29
 _
 /src/main/java/com/nhnacademy/mart/MyLogger.java,0/3/0317029c09777ee63b9d92d61ded414ce54010d0
 c
 3src/main/java/com/nhnacademy/mart/NhnMartShell.java,e/1/e18dfd24854668fbdcbd8c593414fd72ed1b1f12
+l
+<src/main/java/com/nhnacademy/mart/FoodNotFoundException.java,d/a/da2f7ea942c3790d2b38b44cfc27fa8ae5a0b744
+b
+2src/test/java/com/nhnacademy/mart/BuyListTest.java,f/7/f756cbddd7be719b405f8bd01c590bc1d1c10460
+b
+2src/test/java/com/nhnacademy/mart/CounterTest.java,7/0/70fee2c0043e8ddaa59a1b20ad2947dc2911edba
+c
+3src/test/java/com/nhnacademy/mart/CustomerTest.java,8/d/8dd7058fe318a650476c155e4b7d1ee2e5164f44

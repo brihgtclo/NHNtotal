@@ -1,0 +1,13 @@
+
+X
+java:S1854 "=Remove this useless assignment to local variable "exception".(æ¶É¯ÿÿÿÿÿ
+G
+java:S1602 ",Remove useless curly braces around statement(æ¶É¯ÿÿÿÿÿ
+I
+java:S1481 ".Remove this unused "exception" local variable.(æ¶É¯ÿÿÿÿÿ
+R
+java:S1854)"=Remove this useless assignment to local variable "exception".(…Ûh
+A
+java:S1602)",Remove useless curly braces around statement(…Ûh
+C
+java:S1481)".Remove this unused "exception" local variable.(…Ûh

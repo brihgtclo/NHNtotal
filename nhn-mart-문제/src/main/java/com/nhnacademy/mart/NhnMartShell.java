@@ -8,6 +8,7 @@ public class NhnMartShell {
 
     public static void main(String[] args) {
         NhnMart mart = new NhnMart();
+
         mart.prepareMart();
 
         BuyList buyList = inputBuyListFromShell();
@@ -26,6 +27,8 @@ public class NhnMartShell {
         // 카운터에서 계산한다.
         jungByeongHun.payTox(mart.getCounter());
 
+
+
     }
 
     private static BuyList inputBuyListFromShell() {
@@ -34,7 +37,7 @@ public class NhnMartShell {
         Scanner scanner = new Scanner(in);
         System.out.print("> ");
         String wantList = scanner.nextLine();
-        MyLogger.getLogger().warning("입력값 : " + wantList);
+        MyLogger.getLogger().info("입력값 : " + wantList);
         BuyList buyList = new BuyList();
 
         buyList.add(wantList.split(" "));

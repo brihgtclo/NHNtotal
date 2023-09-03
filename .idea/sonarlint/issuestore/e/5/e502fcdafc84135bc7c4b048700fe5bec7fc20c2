@@ -1,0 +1,8 @@
+
+]
+java:S1192"GDefine a constant instead of duplicating this literal "book 1" 7 times.(ר­«ב
+g
+java:S1223-"LRename this method to prevent any misunderstanding or make it a constructor.(״ט®כרÿÿÿÿ
+w
+java:S1845-"\Rename method "LibraryTest" to prevent any misunderstanding/clash with method "libraryTest".(״ט®כרÿÿÿÿ
+h	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(״ט®כרÿÿÿÿ
