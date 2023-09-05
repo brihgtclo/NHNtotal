@@ -126,9 +126,11 @@ public class tictaxtoc {
     }
 
     public static void inputTac(String user, String tec, String[][] map) {
+
         String[] arr = user.split(",");
         int x = Integer.parseInt(arr[0]);
         int y = Integer.parseInt(arr[1]);
+        if(map[x][y] != " ") throw new IllegalArgumentException("이미 입력되어 있습니다");
         map[x][y] = tec;
     }
 }

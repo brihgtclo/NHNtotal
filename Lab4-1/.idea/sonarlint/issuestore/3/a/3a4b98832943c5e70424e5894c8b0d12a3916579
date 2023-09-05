@@ -1,0 +1,22 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬×‡Ğ8Û‹›¦1
+Y
+java:S4973/"<Strings and Boxed types should be compared using "equals()".(Â­Œ×8Ü‹›¦1
+_
+java:S4973…"<Strings and Boxed types should be compared using "equals()".(ÁÌ€˜ùÿÿÿÿ8Ü‹›¦1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(í÷–‡8İ‹›¦1
+E
+java:S1481
+"(Remove this unused "you" local variable.(æ‡ê—8¸‹›¦1
+G	java:S106"+Replace this use of System.out by a logger.(­„Ä¬8¸‹›¦1
+G	java:S106"+Replace this use of System.out by a logger.(ˆ’Õö8¹‹›¦1
+]	java:S125"<This block of commented-out lines of code should be removed.(­Ê¸ùÿÿÿÿ8¹‹›¦1
+G	java:S106!"+Replace this use of System.out by a logger.(Ææ¸»8¹‹›¦1
+:
+java:S2119("Save and re-use this "Random".(¼İÅf8º‹›¦1
+N
+java:S1264,",Replace this "for" loop with a "while" loop.(Òï•øÿÿÿÿ8º‹›¦1
+G	java:S1069"+Replace this use of System.out by a logger.(Ë²¨«8»‹›¦1
+L	java:S106;"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8»‹›¦1
+c
+java:S1126V"AReplace this if-then-else statement by a single return statement.(÷÷îøÿÿÿÿ8¼‹›¦1
