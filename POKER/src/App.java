@@ -1,7 +1,5 @@
-import javax.xml.crypto.Data;
-
-import com.nhnacademy.java.poker.Date;
-import com.nhnacademy.java.poker.DaysInWeek;
+import dt.Date;
+import dt.DaysInWeek;
 
 public class App {
     public static void main(String[] args) throws Exception {

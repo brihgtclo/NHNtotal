@@ -1,4 +1,6 @@
-package com.nhnacademy.java.poker;
+package dt;
+
+import dt.DaysInWeek;
 
 public class Date {
     private int year;

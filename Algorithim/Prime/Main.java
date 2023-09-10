@@ -8,18 +8,17 @@ public class Main {
 
     private static int isPrimeSolution(int start, int end) {
         int count = 0;
-        for (int i = start; i < end; i++) {
-            if(isPrime(i)) count++;
+        for (int i = start; i <= end; i++) {
+            if (isPrime(i)) count++;
         }
 
         return count;
     }
 
     private static boolean isPrime(int num) {
-        if(num == 1) return false;
-        if(num == 2) return true;
+        if (num < 2) return false;
         for (int i = 2; i < num; i++) {
-            if(num%i == 0)
+            if (num % i == 0)
                 return false;
         }
         return true;
@@ -32,8 +31,6 @@ public class Main {
 
         System.out.printf("정답률 = %.3f%%", (correct / TEST_CASES.length * 100));
     }
-
-
 
 
     private static boolean test(int start, int end, int result) {

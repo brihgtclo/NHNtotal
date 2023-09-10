@@ -1,4 +1,4 @@
-package com.nhnacademy.java.poker;
+package dt;
 
 public enum DaysInWeek {
     MON("Mondat"),
