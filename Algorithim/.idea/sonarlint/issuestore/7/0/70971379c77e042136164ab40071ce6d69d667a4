@@ -1,0 +1,19 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É×¥¦ÿÿÿÿÿ8êìµß¨1
+G	java:S106"+Replace this use of System.out by a logger.(‹ÿ„É8íµß¨1
+L	java:S106"+Replace this use of System.out by a logger.(¥Ó†ÿÿÿÿÿ8íµß¨1
+L	java:S106	"+Replace this use of System.out by a logger.(’ÚŒÑÿÿÿÿÿ8íµß¨1
+F	java:S106
+"+Replace this use of System.out by a logger.(¨áè}8íµß¨1
+G	java:S106"+Replace this use of System.out by a logger.(¬Øß•8Ÿíµß¨1
+L	java:S106"+Replace this use of System.out by a logger.(§Ÿäÿÿÿÿÿ8Ÿíµß¨1
+G	java:S106"+Replace this use of System.out by a logger.(¥„¬8–Ø¶ß¨1
+G	java:S106"+Replace this use of System.out by a logger.(ĞÛ8–Ø¶ß¨1
+L	java:S106"+Replace this use of System.out by a logger.(¬ò¨Ïùÿÿÿÿ8–Ø¶ß¨1
+G	java:S106"+Replace this use of System.out by a logger.(øÿÀ8–Ø¶ß¨1
+G	java:S106"+Replace this use of System.out by a logger.( Ş÷8—Ø¶ß¨1
+L	java:S106"+Replace this use of System.out by a logger.(—Áˆ«üÿÿÿÿ8—Ø¶ß¨1
+G	java:S106"+Replace this use of System.out by a logger.(Äº›ò8ı“¹ß¨1
+G	java:S106"+Replace this use of System.out by a logger.(ÛØşˆ8÷É¹ß¨1
+N
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8’äÚß¨1

@@ -1,0 +1,15 @@
+
+m	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€”õÛ8çÂ’¨1
+v
+java:S1488e"YImmediately return this expression instead of assigning it to the temporary variable "a".(ˆ‰òÂ8çÂ’¨1
+v
+java:S1488j"YImmediately return this expression instead of assigning it to the temporary variable "a".(ÛÖñü8çÂ’¨1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ûÂû8èÂ’¨1
+u
+java:S3008	"XRename this field "prime_numbers" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øëé›8®Ã’¨1
+L
+java:S1197"*Move the array designators [] to the type.(Ó…Şúÿÿÿÿ8¯Ã’¨1
+L	java:S1067"+Replace this use of System.out by a logger.(šêëıÿÿÿÿ8°Ã’¨1
+L	java:S106:"+Replace this use of System.out by a logger.(ÿ¶ª¸úÿÿÿÿ8°Ã’¨1
+D
+java:S1125d"'Remove the unnecessary boolean literal.(½‚ïÍ8²Ã’¨1
