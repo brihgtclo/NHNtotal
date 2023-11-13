@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÇ¡şÿÿÿÿ
+Œ
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7
+@	java:S106"+Replace this use of System.out by a logger.(ÿöÈÔ
+P
+java:S1128"5Remove this unused import 'ch2.quiz02.ThreadCounter'.(‘Šì¥ÿÿÿÿÿ
