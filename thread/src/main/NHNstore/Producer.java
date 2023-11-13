@@ -1,5 +1,6 @@
 package NHNstore;
 
+import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Producer implements Runnable {
@@ -12,19 +13,30 @@ public class Producer implements Runnable {
 
     @Override
     public void run() {
-        try {
-            while (true){
-                while (store.item.size() < 10){
+        int count = 0;
+        while (true) {
+            try {
+                while (store.item.size() < 10) {
                     setRandomProduceItem();
                     store.sell(produceItem);
+                    Thread.sleep(100);
+                    count = 0;
                 }
-                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 10000));
+                count++;
+                if(count > 7){
+                    store.item.removeAll(store.item);
+                }
+                for(String s : store.item){
+                    System.out.print(s + " ");
+                }
+                System.out.println();
+                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 5000));
+            } catch (InterruptedException e) {
             }
-        }catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
         }
     }
-    public void setRandomProduceItem(){
+
+    public void setRandomProduceItem() {
         produceItem = store.itemNames[ThreadLocalRandom.current().nextInt(0, store.getItemNumber())];
     }
 }

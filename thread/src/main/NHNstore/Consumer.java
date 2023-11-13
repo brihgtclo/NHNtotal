@@ -12,19 +12,20 @@ public class Consumer implements Runnable {
 
     @Override
     public void run() {
-        try {
-            while (true){
+        while (true) {
+            try {
+                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 5000));
                 setRandomWantItem();
                 store.enter();
                 store.buy(wantItem);
                 store.exit();
-                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 10000));
+                Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 5000));
+            } catch (InterruptedException e) {
             }
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
         }
     }
-    public void setRandomWantItem(){
+
+    public void setRandomWantItem() {
         wantItem = store.itemNames[ThreadLocalRandom.current().nextInt(0, store.getItemNumber())];
     }
 }
